@@ -94,13 +94,24 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey-color-text);
+  fill: var(--grey-color-text);
 }
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
+.header-logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .header-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-contacts {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -147,6 +158,9 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 600px;
 }
 
 .title {
@@ -466,7 +480,7 @@ img {
   margin-bottom: 20px;
 }
 .ftr-social {
-  margin-left: 156px;
+  margin-left: 70px;
 }
 .footer-joinus-list {
   display: flex;
